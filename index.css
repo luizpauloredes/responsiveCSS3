@@ -1,0 +1,45 @@
+h3, p{
+    text-align:center
+  }
+  
+  .div {
+    background-color:#e1e1e1;
+    padding:5px;
+    
+  }
+  
+  .div:hover {
+    box-shadow: 1px 1px 1px #ccc;
+  }
+  
+  @media (max-width: 1600px) 
+  {
+    .div {    
+      width:30%;
+      min-height:150px;
+      display:inline-block;
+      margin:2px;  
+    }
+  }
+  
+  
+  @media (max-width: 600px) 
+  {
+    .div {   
+      width:40%;
+      min-height:150px;
+      display:inline-block;
+      margin:2px;
+       
+    }
+  }
+  
+  
+  @media (max-width: 480px) 
+  {
+    .div {    
+      width:100%;
+      min-height:150px;
+      display:inline-block     
+    }
+  }
